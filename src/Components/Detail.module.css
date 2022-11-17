@@ -1,0 +1,64 @@
+.card {
+    border: solid 2px black;
+    border-radius: 10px;
+    width: 350px;
+    height: 580px;
+    margin: 1%;
+    background-image: url('https://media.istockphoto.com/id/1072571476/es/foto/parque-p%C3%BAblico-de-la-naci%C3%B3n-borrosa-abstracto-al-aire-libre-en-temporada-de-oto%C3%B1o-para-el.jpg?s=612x612&w=0&k=20&c=UnnWPVSxy0x1bb4dGUgf455qJ0dFNUujOm5av-E3_0Y=');
+    box-shadow: rgba(7, 7, 7, 0.322) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(64, 10, 10, 0.35) 0px -2px 6px 0px inset;
+}
+
+.card h1 {
+    font-family: cursive;
+    font-style: italic;
+}
+
+.card p {
+    font-family: Geneva;
+    font-style: italic;
+}
+
+.card img {
+    width: 250px;
+    height: 250px;
+    border-radius:50%;
+}
+
+.card button {
+    display: flex;
+    justify-content: left;
+    margin-top: 3%;
+    margin-left: 3%;
+    border-radius: 5px;
+
+}
+
+.temp p{
+    justify-content: center;
+    width: 80%;
+    margin-left: 40px;
+}
+
+.margin {
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://media.istockphoto.com/id/1072571476/es/foto/parque-p%C3%BAblico-de-la-naci%C3%B3n-borrosa-abstracto-al-aire-libre-en-temporada-de-oto%C3%B1o-para-el.jpg?s=612x612&w=0&k=20&c=UnnWPVSxy0x1bb4dGUgf455qJ0dFNUujOm5av-E3_0Y=');
+}
+
+.btn {
+    background-color: #ccffb5;
+    border-radius: 10%;
+    margin: 3px;
+}
+
+.btn:hover {
+    background-image: -webkit-linear-gradient(top, #ffcb3ee3, #ccffb5);
+    background-image: -moz-linear-gradient(top, #ffcb3ee3, #ccffb5);
+    background-image: -ms-linear-gradient(top, #ffcb3ee3, #ccffb5);
+    background-image: -o-linear-gradient(top, #ffcb3ee3, #ccffb5);
+    background-image: linear-gradient(to bottom, #ffcb3ee3, #ccffb5);
+	cursor:pointer;
+}

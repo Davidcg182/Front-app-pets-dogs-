@@ -1,0 +1,17 @@
+
+
+
+.pagination button {
+    background-color: #ccffb5;
+    border-radius: 10px;
+    margin: 3px;
+}
+
+.pagination button:hover  {
+    background-image: -webkit-linear-gradient(top, #ffcb3ee3, #ccffb5);
+    background-image: -moz-linear-gradient(top, #ffcb3ee3, #ccffb5);
+    background-image: -ms-linear-gradient(top, #ffcb3ee3, #ccffb5);
+    background-image: -o-linear-gradient(top, #ffcb3ee3, #ccffb5);
+    background-image: linear-gradient(to bottom, #ffcb3ee3, #ccffb5);
+	cursor:pointer;
+}

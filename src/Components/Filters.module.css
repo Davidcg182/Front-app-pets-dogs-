@@ -1,0 +1,37 @@
+.select {
+    border-radius: 10px;
+    opacity: .5;    
+}
+
+.select option {
+    font-family: Geneva;
+    font-style: italic;
+    background-color: #dfffd5;    
+}
+
+.label {
+    font-size: 20px;
+    color: black;
+    font-family: Geneva;
+    font-style: italic;
+}
+
+.input {
+    border-radius: 10px;
+    opacity: .5;
+}
+
+.btn {
+    background-color: #ccffb5;
+    border-radius: 10px;
+    margin: 3px;
+}
+
+.btn:hover {
+    background-image: -webkit-linear-gradient(top, #ffcb3ee3, #ccffb5);
+    background-image: -moz-linear-gradient(top, #ffcb3ee3, #ccffb5);
+    background-image: -ms-linear-gradient(top, #ffcb3ee3, #ccffb5);
+    background-image: -o-linear-gradient(top, #ffcb3ee3, #ccffb5);
+    background-image: linear-gradient(to bottom, #ffcb3ee3, #ccffb5);
+	cursor:pointer;
+}

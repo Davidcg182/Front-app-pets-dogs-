@@ -1,0 +1,65 @@
+
+.form{
+    border: solid 1px black;
+	width:500px;
+    height: 500px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://cdn.ultimatepetnutrition.com/wp-content/uploads/2019/09/111517916_s.jpg');
+}
+
+.select {
+    border-radius: 10px;
+    opacity: .5;    
+}
+
+.select option {
+    font-family: Geneva;
+    font-style: italic;
+    background-color: #ffe5b6;    
+}
+
+.form input {
+    border-radius: 10px;
+    opacity: .5;
+}
+
+.form label {
+    float: left;
+    font-size: 20px;
+    text-align: left;
+    color: white;
+    font-family: Geneva;
+    font-style: italic;
+}
+
+
+.items {
+    float: left;
+    width:250px;
+	padding:3px 10px;
+	margin:8px 0;
+}
+
+.btn {
+    background-color: #ccffb5;
+    border-radius: 10px;
+    margin: 3px;
+}
+
+.btn:hover {
+    background-image: -webkit-linear-gradient(top, #ffcb3ee3, #ccffb5);
+    background-image: -moz-linear-gradient(top, #ffcb3ee3, #ccffb5);
+    background-image: -ms-linear-gradient(top, #ffcb3ee3, #ccffb5);
+    background-image: -o-linear-gradient(top, #ffcb3ee3, #ccffb5);
+    background-image: linear-gradient(to bottom, #ffcb3ee3, #ccffb5);
+	cursor:pointer;
+}
+
+.lifeinput {
+    width: 150px;
+}
+
