@@ -87,7 +87,7 @@ export default function GetDogs () {
                                 if (e.temperaments) {
                                 let temp = e.temperaments.map( e => (`${e.name} `))
                                 return(
-                                <div className={style.card}>
+                                <div className={style.card} key={e.id}>
                                     <h1>{e.name}</h1>
                                     <Link to={`/dogs/${e.id}`} >
                                         <img src={e.image} alt='imagen' />
@@ -101,7 +101,7 @@ export default function GetDogs () {
                                 </div>)
                                 }
                                 else return(
-                                    <div className={style.card}>
+                                    <div className={style.card} key={e.id}>
                                         <h1>{e.name}</h1>
                                         <Link to={`/dogs/${e.id}`} >
                                             <img src={e.image} alt='image' />

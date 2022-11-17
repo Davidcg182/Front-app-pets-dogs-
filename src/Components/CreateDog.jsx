@@ -153,7 +153,7 @@ export  function CreateDog (props) {
                             <select className={style.select} onChange={e => handleOnChange1(e)}>
                                 {props.temperaments.map(e => {
                                 return (
-                                    <option value={e.name}>{e.name}</option>  
+                                    <option key={e.id} value={e.name}>{e.name}</option>  
                                 )
                             })}
                             </select>

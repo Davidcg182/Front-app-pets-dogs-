@@ -34,7 +34,7 @@ export default function GetFilters (props) {
                 <select className={style.select} onChange={e => handleOnChange(e)} name='temperaments'>
                     {allTemperaments.map(e => {
                         return (
-                                <option value={e.name}>{e.name}</option>  
+                                <option key={e.id} value={e.name}>{e.name}</option>  
                         )
                     })}
                 </select>

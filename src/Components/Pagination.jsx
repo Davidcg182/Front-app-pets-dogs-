@@ -17,7 +17,7 @@ export function Pagination (props) {
         <div className={style.pagination}>
             <button onClick={props.prevPag}> Prev {'<<'} </button> 
             {pages?.map(e => {
-              return  <button value={e} onClick={() => props.actualPage(e)}>{e}</button>
+              return <button  key={e} value={e} onClick={() => props.actualPage(e)}>{e}</button>
             })}
             <button onClick={props.nextPag} > Next {'>>'} </button>
 
